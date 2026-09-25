@@ -1,0 +1,4 @@
+﻿recorded_at,center_code,operation,item_code,quantity
+2024-06-30T09:00:00+09:00,WH-01,입고,ITEM-001,120
+2024-06-30T10:30:00+09:00,WH-01,출고,ITEM-002,48
+2024-06-30T14:15:00+09:00,WH-02,입고,ITEM-003,72

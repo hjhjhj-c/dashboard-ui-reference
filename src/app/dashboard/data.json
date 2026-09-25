@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "header": "일별 매출 집계",
+    "type": "실시간 스트림",
+    "status": "대기",
+    "target": "17",
+    "limit": "16",
+    "reviewer": "담당자 지정"
+  },
+  {
+    "id": 2,
+    "header": "고객 문의 로그",
+    "type": "외부 연동",
+    "status": "진행 중",
+    "target": "24",
+    "limit": "27",
+    "reviewer": "박민수"
+  },
+  {
+    "id": 3,
+    "header": "재고 스냅샷",
+    "type": "수동 업로드",
+    "status": "완료",
+    "target": "31",
+    "limit": "8",
+    "reviewer": "담당자 지정"
+  },
+  {
+    "id": 4,
+    "header": "웹 트래픽 원본",
+    "type": "정기 수집",
+    "status": "대기",
+    "target": "38",
+    "limit": "19",
+    "reviewer": "박민수"
+  },
+  {
+    "id": 5,
+    "header": "설문 응답 데이터",
+    "type": "실시간 스트림",
+    "status": "진행 중",
+    "target": "45",
+    "limit": "30",
+    "reviewer": "담당자 지정"
+  },
+  {
+    "id": 6,
+    "header": "배송 추적 기록",
+    "type": "외부 연동",
+    "status": "완료",
+    "target": "12",
+    "limit": "11",
+    "reviewer": "박민수"
+  },
+  {
+    "id": 7,
+    "header": "품질 검사 결과",
+    "type": "수동 업로드",
+    "status": "대기",
+    "target": "19",
+    "limit": "22",
+    "reviewer": "담당자 지정"
+  },
+  {
+    "id": 8,
+    "header": "마케팅 캠페인 성과",
+    "type": "정기 수집",
+    "status": "진행 중",
+    "target": "26",
+    "limit": "33",
+    "reviewer": "박민수"
+  },
+  {
+    "id": 9,
+    "header": "회원 가입 이력",
+    "type": "실시간 스트림",
+    "status": "완료",
+    "target": "33",
+    "limit": "14",
+    "reviewer": "담당자 지정"
+  },
+  {
+    "id": 10,
+    "header": "발주 내역",
+    "type": "외부 연동",
+    "status": "대기",
+    "target": "40",
+    "limit": "25",
+    "reviewer": "박민수"
+  },
+  {
+    "id": 11,
+    "header": "생산 라인 지표",
+    "type": "수동 업로드",
+    "status": "진행 중",
+    "target": "47",
+    "limit": "6",
+    "reviewer": "담당자 지정"
+  },
+  {
+    "id": 12,
+    "header": "클레임 처리 현황",
+    "type": "정기 수집",
+    "status": "완료",
+    "target": "14",
+    "limit": "17",
+    "reviewer": "박민수"
+  },
+  {
+    "id": 13,
+    "header": "협력사 정산 데이터",
+    "type": "실시간 스트림",
+    "status": "대기",
+    "target": "21",
+    "limit": "28",
+    "reviewer": "담당자 지정"
+  },
+  {
+    "id": 14,
+    "header": "출퇴근 기록",
+    "type": "외부 연동",
+    "status": "진행 중",
+    "target": "28",
+    "limit": "9",
+    "reviewer": "박민수"
+  },
+  {
+    "id": 15,
+    "header": "에너지 사용량",
+    "type": "수동 업로드",
+    "status": "완료",
+    "target": "35",
+    "limit": "20",
+    "reviewer": "담당자 지정"
+  },
+  {
+    "id": 16,
+    "header": "안전 점검 일지",
+    "type": "정기 수집",
+    "status": "대기",
+    "target": "42",
+    "limit": "31",
+    "reviewer": "박민수"
+  },
+  {
+    "id": 17,
+    "header": "교육 이수 현황",
+    "type": "실시간 스트림",
+    "status": "진행 중",
+    "target": "49",
+    "limit": "12",
+    "reviewer": "담당자 지정"
+  },
+  {
+    "id": 18,
+    "header": "장비 가동률",
+    "type": "외부 연동",
+    "status": "완료",
+    "target": "16",
+    "limit": "23",
+    "reviewer": "박민수"
+  },
+  {
+    "id": 19,
+    "header": "원자재 시세",
+    "type": "수동 업로드",
+    "status": "대기",
+    "target": "23",
+    "limit": "34",
+    "reviewer": "담당자 지정"
+  },
+  {
+    "id": 20,
+    "header": "경쟁사 모니터링",
+    "type": "정기 수집",
+    "status": "진행 중",
+    "target": "30",
+    "limit": "15",
+    "reviewer": "박민수"
+  }
+]

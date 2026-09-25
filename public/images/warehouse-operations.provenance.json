@@ -1,0 +1,18 @@
+{
+  "source": "AI generated example, not an actual facility",
+  "tool": "image_gen.imagegen",
+  "mode": "built-in",
+  "operation": "generate",
+  "use_case": "photorealistic-natural",
+  "prompt": "Use case: photorealistic-natural\nAsset type: hero photograph for a logistics operations dashboard detail page\nPrimary request: one finished, high-end architectural photograph of the interior of a spacious modern distribution warehouse, a generic imaginary location that does not represent any real company or actual facility.\nScene/backdrop: a broad central aisle leads toward a clear central vanishing point, with neatly arranged neutral blue-gray industrial storage racks and ordinary unmarked cardboard boxes on both sides.\nStyle/medium: convincingly photorealistic natural architectural photography, clean optical detail, realistic proportions and authentic materials, quiet and refined rather than cinematic or dramatic.\nComposition/framing: panoramic horizontal landscape, at least 1536x1024 pixels, wide-angle architectural camera with straight vertical lines, the central aisle and racks compose one cohesive photograph suitable for a wide website hero crop.\nLighting/mood: soft natural daylight from high warehouse windows and skylights, warm-toned concrete floor with subtle realistic surface texture and gentle reflections, balanced exposure and restrained contrast.\nColor palette: neutral gray, muted blue-gray racks, warm concrete and natural cardboard, no vivid accents.\nConstraints: no people, no text, no signs, no labels, no numbers, no logos, no watermark, no montage, no collage, no graphic design, no UI, no overlaid elements. A single realistic photograph, not a render.",
+  "created_at": "2026-09-24T17:09:47.212Z",
+  "asset": {
+    "path": "public/images/warehouse-operations.png",
+    "format": "png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2649248
+  },
+  "reference_images": [],
+  "transformations": "None. Original generated PNG copied unchanged into the project."
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>데이터 대시보드</title>
+    <script>
+      // 모드와 컬러를 첫 페인트 전에 적용해 깜빡임(FOUC)을 막습니다.
+      ;(() => {
+        let theme = null
+        let colorTheme = null
+        try {
+          theme = localStorage.getItem("theme")
+          colorTheme = localStorage.getItem("dashboard-color-theme")
+        } catch {
+          // 저장을 제한한 브라우저에서는 OS 모드와 기본 컬러를 사용해요.
+        }
+        if (
+          theme === "dark" ||
+          (theme !== "light" && window.matchMedia("(prefers-color-scheme: dark)").matches)
+        ) {
+          document.documentElement.classList.add("dark")
+        }
+        const colors = ["blue", "violet", "teal", "rose", "amber"]
+        document.documentElement.dataset.colorTheme = colors.includes(colorTheme)
+          ? colorTheme
+          : "blue"
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
